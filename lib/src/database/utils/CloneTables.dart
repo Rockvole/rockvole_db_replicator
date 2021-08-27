@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'package:csv/csv.dart';
-import 'package:rockvole_db/rockvole_db.dart';
+import 'package:rockvole_db_replicator/rockvole_db.dart';
 
 class CloneTables {
   SchemaMetaData smd;

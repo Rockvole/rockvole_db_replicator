@@ -2,11 +2,11 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:yaml/yaml.dart';
 
-import 'package:rockvole_db/rockvole_data.dart';
-import 'package:rockvole_db/rockvole_db.dart';
-import 'package:rockvole_db/rockvole_transactions.dart';
-import 'package:rockvole_db/rockvole_web_services.dart';
-import 'package:rockvole_db/src/web_services/services/MainServer.dart';
+import 'package:rockvole_db_replicator/rockvole_data.dart';
+import 'package:rockvole_db_replicator/rockvole_db.dart';
+import 'package:rockvole_db_replicator/rockvole_transactions.dart';
+import 'package:rockvole_db_replicator/rockvole_web_services.dart';
+import 'package:rockvole_db_replicator/src/web_services/services/MainServer.dart';
 
 const List<String> validCommands = [
   "upgradeuser",

@@ -1,5 +1,5 @@
-import 'package:rockvole_db/rockvole_db.dart';
-import 'package:rockvole_db/rockvole_transactions.dart';
+import 'package:rockvole_db_replicator/rockvole_db.dart';
+import 'package:rockvole_db_replicator/rockvole_transactions.dart';
 
 /**
  * Update the water_line_field (WLF) table and the values in the corresponding tables.

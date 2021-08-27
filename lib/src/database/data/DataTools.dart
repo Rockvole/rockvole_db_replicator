@@ -1,4 +1,4 @@
-import 'package:rockvole_db/rockvole_data.dart';
+import 'package:rockvole_db_replicator/rockvole_data.dart';
 
 class DataTools {
   static String convertUniqueKey(int table_id, String? fieldName) {

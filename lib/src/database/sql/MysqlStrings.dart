@@ -1,4 +1,4 @@
-import 'package:rockvole_db/rockvole_db.dart';
+import 'package:rockvole_db_replicator/rockvole_db.dart';
 
 class MysqlStrings extends AbstractSqlStrings {
   MysqlStrings(DBType dbType) : super.internal(dbType);

@@ -1,5 +1,5 @@
-import 'package:rockvole_db/rockvole_data.dart';
-import 'package:rockvole_db/rockvole_transactions.dart';
+import 'package:rockvole_db_replicator/rockvole_data.dart';
+import 'package:rockvole_db_replicator/rockvole_transactions.dart';
 
 class RemoteWaterLineFieldDto extends RemoteDto {
   static const String TABLE_NAME = 'water_line_field';

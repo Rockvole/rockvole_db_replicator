@@ -1,9 +1,9 @@
 import 'dart:io';
 import 'package:test/test.dart';
 import 'package:csv/csv.dart';
-import 'package:rockvole_db/rockvole_db.dart';
-import 'package:rockvole_db/rockvole_transactions.dart';
-import 'package:rockvole_db/rockvole_web_services.dart';
+import 'package:rockvole_db_replicator/rockvole_db.dart';
+import 'package:rockvole_db_replicator/rockvole_transactions.dart';
+import 'package:rockvole_db_replicator/rockvole_web_services.dart';
 import '../../rockvole_test.dart';
 
 abstract class AbstractWardenTest {
@@ -29,9 +29,9 @@ abstract class AbstractWardenTest {
   static String preamble =
       "--------------------------------------------------------------------------------------------- ";
   static String C_FILE_TASK_CSV =
-      "/work/projects/dart/rockvole_db/ancillary/import/task.csv";
+      "/work/projects/dart/rockvole_db_replicator/ancillary/import/task.csv";
   static String C_FILE_TASK_ITEM_CSV =
-      "/work/projects/dart/rockvole_db/ancillary/import/task_item.csv";
+      "/work/projects/dart/rockvole_db_replicator/ancillary/import/task_item.csv";
   static String C_TASK_NAME = "task";
   static String C_TASK_ITEM_NAME = "task_item";
   static const int C_TASK_TABLE_ID = 1000;

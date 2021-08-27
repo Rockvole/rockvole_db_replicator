@@ -1,14 +1,14 @@
-import 'package:rockvole_db/rockvole_data.dart';
-import 'package:rockvole_db/rockvole_db.dart';
-import 'package:rockvole_db/rockvole_transactions.dart';
-import 'package:rockvole_db/rockvole_web_services.dart';
+import 'package:rockvole_db_replicator/rockvole_data.dart';
+import 'package:rockvole_db_replicator/rockvole_db.dart';
+import 'package:rockvole_db_replicator/rockvole_transactions.dart';
+import 'package:rockvole_db_replicator/rockvole_web_services.dart';
 
 class UrlTools {
   static const String C_HTTP = "http";
   static const String C_SERVER_ADDRESS = "localhost";
   static const String C_ANDROID_ADDRESS = "10.0.2.2";
   static const int C_SERVER_PORT = 9090;
-  static const String C_REST_BASE_URL = "/rockvole_db/rest/";
+  static const String C_REST_BASE_URL = "/rockvole_db_replicator/rest/";
 
   static const String C_AUTHENTICATE_URL = "authenticate/get";
   static const String C_LATEST_ROWS_URL = "latest_rows/get";

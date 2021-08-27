@@ -1,6 +1,6 @@
-import 'package:rockvole_db/rockvole_db.dart';
-import 'package:rockvole_db/rockvole_transactions.dart';
-import 'package:rockvole_db/rockvole_web_services.dart';
+import 'package:rockvole_db_replicator/rockvole_db.dart';
+import 'package:rockvole_db_replicator/rockvole_transactions.dart';
+import 'package:rockvole_db_replicator/rockvole_web_services.dart';
 
 class ServerHelper {
   static const String C_CMD_ROCKVOLE = './rockvole_helper.sh';

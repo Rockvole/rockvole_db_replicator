@@ -1,6 +1,6 @@
-import 'package:rockvole_db/rockvole_data.dart';
-import 'package:rockvole_db/rockvole_db.dart';
-import 'package:rockvole_db/rockvole_transactions.dart';
+import 'package:rockvole_db_replicator/rockvole_data.dart';
+import 'package:rockvole_db_replicator/rockvole_db.dart';
+import 'package:rockvole_db_replicator/rockvole_transactions.dart';
 
 class WaterLineDto extends Dto {
   static const int C_TABLE_ID = 0;

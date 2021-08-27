@@ -2,11 +2,11 @@ import 'dart:io';
 
 import 'package:test/test.dart';
 import 'package:csv/csv.dart';
-import 'package:rockvole_db/rockvole_db.dart';
-import 'package:rockvole_db/rockvole_transactions.dart';
+import 'package:rockvole_db_replicator/rockvole_db.dart';
+import 'package:rockvole_db_replicator/rockvole_transactions.dart';
 import '../rockvole_test.dart';
 
-const String C_FILE_TASK_ITEM_CSV = "/work/projects/dart/rockvole_db/ancillary/import/task_item.csv";
+const String C_FILE_TASK_ITEM_CSV = "/work/projects/dart/rockvole_db_replicator/ancillary/import/task_item.csv";
 
 Future<void> test_db_warden(DbTransaction db) async {
   SchemaMetaData smd = SchemaMetaData(false);

@@ -1,5 +1,5 @@
-import 'package:rockvole_db/rockvole_db.dart';
-import 'package:rockvole_db/rockvole_transactions.dart';
+import 'package:rockvole_db_replicator/rockvole_db.dart';
+import 'package:rockvole_db_replicator/rockvole_transactions.dart';
 
 class LocalUserRemoteUserWarden extends AbstractWarden {
   LocalUserRemoteUserWarden({WardenType localWardenType = WardenType.USER,

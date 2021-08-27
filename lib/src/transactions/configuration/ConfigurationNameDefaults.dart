@@ -1,4 +1,4 @@
-import 'package:rockvole_db/rockvole_web_services.dart';
+import 'package:rockvole_db_replicator/rockvole_web_services.dart';
 
 enum ConfigurationNameEnum {
   // MUST be above 0

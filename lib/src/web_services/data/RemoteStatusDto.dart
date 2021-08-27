@@ -1,5 +1,5 @@
-import 'package:rockvole_db/rockvole_data.dart';
-import 'package:rockvole_db/rockvole_transactions.dart';
+import 'package:rockvole_db_replicator/rockvole_data.dart';
+import 'package:rockvole_db_replicator/rockvole_transactions.dart';
 
 enum RemoteStatus {
   AUTHENTICATION_FAILED,

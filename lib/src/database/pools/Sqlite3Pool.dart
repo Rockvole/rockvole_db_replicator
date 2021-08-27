@@ -1,6 +1,6 @@
-import 'package:rockvole_db/rockvole_db.dart';
+import 'package:rockvole_db_replicator/rockvole_db.dart';
 import 'package:sqlite3/sqlite3.dart';
-import 'package:rockvole_db/rockvole_sqlite3.dart';
+import 'package:rockvole_db_replicator/rockvole_sqlite3.dart';
 
 class Sqlite3Pool extends AbstractPool {
   static final String C_EXT = ".db";

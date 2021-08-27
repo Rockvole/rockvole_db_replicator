@@ -1,6 +1,6 @@
-import 'package:rockvole_db/rockvole_db.dart';
-import 'package:rockvole_db/rockvole_transactions.dart';
-import 'package:rockvole_db/rockvole_web_services.dart';
+import 'package:rockvole_db_replicator/rockvole_db.dart';
+import 'package:rockvole_db_replicator/rockvole_transactions.dart';
+import 'package:rockvole_db_replicator/rockvole_web_services.dart';
 
 class UserTrDto extends TrDto with UserMixin {
   static const String TABLE_NAME='user'+TransactionTools.C_TABLE_EXT;

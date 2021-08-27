@@ -1,6 +1,6 @@
-import 'package:rockvole_db/rockvole_db.dart';
+import 'package:rockvole_db_replicator/rockvole_db.dart';
 import 'package:mysql1/mysql1.dart';
-import 'package:rockvole_db/rockvole_web_services.dart';
+import 'package:rockvole_db_replicator/rockvole_web_services.dart';
 
 class MysqlDatabase extends AbstractDatabase {
   String hostName;

@@ -1,6 +1,6 @@
 import 'package:test/test.dart';
-import 'package:rockvole_db/rockvole_db.dart';
-import 'package:rockvole_db/rockvole_transactions.dart';
+import 'package:rockvole_db_replicator/rockvole_db.dart';
+import 'package:rockvole_db_replicator/rockvole_transactions.dart';
 import '../rockvole_test.dart';
 
 Future<void> test_db_basics(DbTransaction db) async {

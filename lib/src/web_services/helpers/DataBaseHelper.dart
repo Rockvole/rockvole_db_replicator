@@ -1,4 +1,4 @@
-import 'package:rockvole_db/rockvole_db.dart';
+import 'package:rockvole_db_replicator/rockvole_db.dart';
 
 class DataBaseHelper {
   static const String C_DEFAULT_DATABASE = "default_db";

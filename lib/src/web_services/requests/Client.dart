@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:http/http.dart' as http;
 
-import 'package:rockvole_db/rockvole_web_services.dart';
+import 'package:rockvole_db_replicator/rockvole_web_services.dart';
 
 class Client {
   static final int C_TIMEOUT_CONNECTION = 3000;

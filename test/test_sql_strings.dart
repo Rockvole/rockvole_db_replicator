@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:rockvole_db/rockvole_db.dart';
+import 'package:rockvole_db_replicator/rockvole_db.dart';
 
 void main() {
   String tableName="my_table";

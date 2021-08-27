@@ -1,8 +1,8 @@
 import 'dart:io';
 
-import 'package:rockvole_db/rockvole_db.dart';
-import 'package:rockvole_db/rockvole_transactions.dart';
-import 'package:rockvole_db/rockvole_web_services.dart';
+import 'package:rockvole_db_replicator/rockvole_db.dart';
+import 'package:rockvole_db_replicator/rockvole_transactions.dart';
+import 'package:rockvole_db_replicator/rockvole_web_services.dart';
 
 class MirrorHelper {
   static final WardenType C_LOCAL_WARDEN = WardenType.WRITE_SERVER;

@@ -1,4 +1,4 @@
-import 'package:rockvole_db/src/web_services/data/RemoteStatusDto.dart';
+import 'package:rockvole_db_replicator/src/web_services/data/RemoteStatusDto.dart';
 
 class RemoteStatusException implements Exception {
   String? cause;

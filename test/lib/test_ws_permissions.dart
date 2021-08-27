@@ -1,6 +1,6 @@
-import 'package:rockvole_db/rockvole_db.dart';
-import 'package:rockvole_db/rockvole_transactions.dart';
-import 'package:rockvole_db/src/transactions/warden/Warden.dart';
+import 'package:rockvole_db_replicator/rockvole_db.dart';
+import 'package:rockvole_db_replicator/rockvole_transactions.dart';
+import 'package:rockvole_db_replicator/src/transactions/warden/Warden.dart';
 import 'package:test/test.dart';
 
 import '../rockvole_test.dart';

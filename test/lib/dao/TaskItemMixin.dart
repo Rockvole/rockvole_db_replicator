@@ -1,4 +1,4 @@
-import 'package:rockvole_db/rockvole_db.dart';
+import 'package:rockvole_db_replicator/rockvole_db.dart';
 
 mixin TaskItemMixin on FieldData {
   static const int C_TABLE_ID = 1001;
