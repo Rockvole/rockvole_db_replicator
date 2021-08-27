@@ -1,0 +1,22 @@
+name: rockvole_db_replicator
+description: Rockvole database replicator
+version: 3.0.0
+homepage: https://www.rockvole.com
+author: Rockvole <rockvole@gmail.com>
+publish_to: none
+
+environment:
+  sdk: '>=2.13.0-0 <3.0.0'
+
+dependencies:
+  mysql1: 0.19.2
+  sqlite3: 1.1.2
+  csv: 5.0.0
+  adler32: 1.0.0
+  pointycastle: 2.0.1
+  http: 0.13.3
+  intl: 0.17.0
+
+dev_dependencies:
+  vm_service: 5.5.0
+  test: 1.16.3

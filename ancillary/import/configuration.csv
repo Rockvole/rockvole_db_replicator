@@ -1,0 +1,29 @@
+270000|0|7|ROWS-LIMIT|0|500|
+210000|0|1|ROWS-LIMIT|0|600|
+
+670000|0|7|SERVER-TIME-OFFSET|0|0|
+970000|0|7|ROWS-SYNC-INTERVAL-MINS|0|6|
+1070000|0|7|ROWS-SYNC-INTERVAL|0|0|Manual
+1070001|0|7|ROWS-SYNC-INTERVAL|1|4|4 mins
+1070002|0|7|ROWS-SYNC-INTERVAL|2|8|8 mins
+1070003|0|7|ROWS-SYNC-INTERVAL|3|12|12 mins
+
+910000|0|1|ROWS-SYNC-INTERVAL-MINS|0|18|empty          
+
+1270000|0|7|FIELDS-SYNC-INTERVAL-MINS|0|8|
+
+1370000|0|7|SEND-CHANGES-DELAY-MINS|0|180|
+1470000|0|7|SEND-CHANGES-DELAY|0|180|3 Hours
+1470001|0|7|SEND-CHANGES-DELAY|1|420|7 Hours
+1470002|0|7|SEND-CHANGES-DELAY|2|1440|1 Day
+                       
+
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       

@@ -1,0 +1,39 @@
+tables:
+  task:
+    id: 1000
+    unique-keys:
+      id: [id]
+    crc-field-names: [task_description, task_complete]
+    properties-map:
+      min-id-for-user: 2000000000
+      index: id
+      is-partition: false
+    fields:
+      id:
+        type: integer
+      task_description:
+        type: varchar
+        field-size: 20
+      task_complete:
+        type: tinyint
+  task_item:
+    id: 1001
+    unique-keys:
+      id: [id]
+      task_id: [task_id, item_description]
+    crc-field-names: [item_description, item_complete]
+    properties-map:
+      min-id-for-user: 2000000000
+      index: id
+      is-partition: false
+    fields:
+      id:
+        type: integer
+      task_id:
+        type: integer
+      item_description:
+        type: varchar
+        field-size: 30
+      item_complete:
+        type: tinyint
+
