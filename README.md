@@ -1,22 +1,19 @@
-A library for Dart developers.
+## rockvole_db_replicator
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+A database library which provides you with CRUD methods to access your database. This library will create additional transaction tables.
+These transaction tables can be used to replay your database transactions on other servers or phones, thus replicating the database remotely.
+
+To see an example of this - see the rockvole_replicator_todo demonstration android app.<br/>
+[GitHub](https://github.com/Rockvole/rockvole_replicator_todo).
 
 ## Usage
 
 A simple usage example:
 
 ```dart
-import 'package:rockvole_db/rockvole_db.dart';
+import 'package:rockvole_db_replicator/rockvole_db.dart';
 
 main() {
   var awesome = Awesome();
 }
 ```
-
-## Features and bugs
-
-Please file feature requests and bugs at the [issue tracker][tracker].
-
-[tracker]: http://example.com/issues/replaceme
