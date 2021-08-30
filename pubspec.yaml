@@ -3,7 +3,7 @@ description: Rockvole database replicator
 version: 3.0.0
 homepage: https://www.rockvole.com
 author: Rockvole <rockvole@gmail.com>
-publish_to: none
+publish_to: https://pub.dev
 
 environment:
   sdk: '>=2.13.0-0 <3.0.0'
@@ -16,6 +16,7 @@ dependencies:
   pointycastle: 2.0.1
   http: 0.13.3
   intl: 0.17.0
+  yaml: 3.1.0
 
 dev_dependencies:
   vm_service: 5.5.0
