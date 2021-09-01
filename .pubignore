@@ -1,0 +1,4 @@
+lib/src/database/SqfliteDatabase.dart
+test/test_sqflite_basics.dart
+test/test_sqflite_exceptions.dart
+test/test_sqflite_transactions.dart
