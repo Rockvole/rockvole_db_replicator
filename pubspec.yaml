@@ -5,13 +5,13 @@ homepage: https://github.com/Rockvole/rockvole_db_replicator
 publish_to: https://pub.dev
 
 environment:
-  sdk: '>=2.13.0-0 <3.0.0'
+  sdk: '>=2.13.4 <3.0.0'
 
 dependencies:
   mysql1: ^0.19.2
   sqlite3: ^1.1.2
   csv: ^5.0.0
-  adler32: ^1.0.0
+  adler32: ^2.0.0
   pointycastle: ^3.3.2
   http: ^0.13.3
   intl: ^0.17.0
